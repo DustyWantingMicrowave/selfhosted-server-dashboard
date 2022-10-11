@@ -1,0 +1,16 @@
+{
+  "name": "ramiel-dashboard",
+  "version": "0.0.1a",
+  "description": "Dashboard",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "minify": "^8.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "minify ./src/index.html > ./dist/index.html && minify ./src/style.css > ./dist/style.css  &&  echo Done!"
+  },
+  "author": "",
+  "license": "ISC"
+}
